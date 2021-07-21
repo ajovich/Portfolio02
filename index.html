@@ -29,7 +29,6 @@
 </head>
 
 <body>
-
 <div class="uk-section uk-section-small uk-section-secondary" uk-height-viewport>
     <nav class="topnav uk-navbar-container uk-navbar-transparent uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar>
 
@@ -69,14 +68,97 @@
             </div>
         </div>
     </div>  
+
     <br><br><br><br>
-    <!-- <div class="uk-section uk-section-medium uk-section-secondary" uk-height-viewport> -->
+
+    <!-- <div class="uk-section uk-section-small uk-section-secondary" uk-height-viewport> -->
     <div class="aboutMe uk-container uk-padding-large">
         <h1 class="textTop uk-text-left uk-margin-remove">Hi, <br>I'm Allysha,</h1>
         <h1 class="textBottom uk-text-left uk-margin-remove">a Seattle-based Full Stack Developer student</h1>
     </div>
+
+    <div>
+    <a class="uk-icon-link" uk-icon="icon: chevron-down; ratio: 2" href="#target" uk-scroll></a>
+    </div>
+
 </div>
 
+<!-- Portfolio Section -->
+<section class="uk-section uk-section-muted uk-section-xlarge">
+    <div class="uk-container">
+        <h1 class="uk-text-center uk-margin-large-bottom">Portfolio</h1>
+            <div class="uk-grid-large uk-child-width-1-3@m" uk-grid uk-height-match="target: > div > .uk-card > .uk-card-body">
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-large">
+                        <div class="uk-cover-container">     
+                            <img src="" class="" uk-cover/>
+                            <div class="uk-overlay uk-overlay-default uk-position-top">
+                                <p class="uk-text-center">Project 1</p>
+                            </div>
+                            <canvas width="500" height="500"></canvas>
+                        </div>
+                    </div>
+                </div>
+      
+                <div>
+                    <div class="uk-card uk-card-default uk-card-large">
+                        <div class="uk-cover-container">     
+                            <img src="" class="" uk-cover/> 
+                            <div class="uk-overlay uk-overlay-default uk-position-top">
+                                <p class="uk-text-center">Project 2</p>
+                            </div>
+                            <canvas width="500" height="500"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-default uk-card-large">
+                        <div class="uk-cover-container">     
+                            <img src="" class="" uk-cover/> 
+                            <div class="uk-overlay uk-overlay-default uk-position-top">
+                                <p class="uk-text-center">Project 3</p>
+                            </div>
+                            <canvas width="500" height="500"></canvas>
+                         </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<div class="uk-section uk-section-medium uk-section-default">
+    <div class="uk-container artwork" data-id="{{art.user_id}}">
+
+        <h3 class="uk-text-large uk-text-center uk-margin-small-bottom">About Me</h3>
+        <br>
+
+        <div class="uk-grid uk-child-width-1-1@m"uk-grid>
+            <p class="uk-text-center uk-text-large">About Me Text Here</p>
+            <div>
+               <img class="uk-align-center" width="600" height="400" alt="" uk-img>
+            </div>
+            <p class="uk-text-center"><br>Text Here?</p>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Me Section -->
+<div class="last-section uk-section uk-section-small uk-section-muted">
+    <div class="uk-container">
+        <div>
+            <div>
+                <p class="join uk-text-lead uk-text-center uk-text-large">Let's get in touch!</p>
+            </div>
+            <br>
+            <div class="uk-child-width-1-1@m uk-grid-large" uk-grid>
+                <p class="joinTwo uk-text-light uk-text-center">LinkedIn, GitHub, Mail Icons here</p>
+            </div>
+        </div>     
+    </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

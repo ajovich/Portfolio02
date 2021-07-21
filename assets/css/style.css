@@ -2,11 +2,8 @@
     font-family: 'Nunito', sans-serif;
 }
 
-h1 {
+h1.textTop {
     color: #fff;
     font-weight: 800;
-}
-
-.aboutMe.textBottom {
     font-size: 90px;
 }
